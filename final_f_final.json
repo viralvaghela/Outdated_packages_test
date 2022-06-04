@@ -1,0 +1,46 @@
+{
+   "name":"antd-tools",
+   "version":"4.0.5",
+   "description":"tools for ant design",
+   "keywords":[
+      "react",
+      "tools"
+   ],
+   "homepage":"http://github.com/ant-design/antd-tools",
+   "author":"yiminghe@gmail.com",
+   "repository":{
+      "type":"git",
+      "url":"git@github.com:ant-design/antd-tools.git"
+   },
+   "bugs":{
+      "url":"http://github.com/ant-design/antd-tools/issues"
+   },
+   "license":"MIT",
+   "bin":{
+      "antd-tools":"./bin/antd-tools.js",
+      "antd-tools-run":"./bin/antd-tools-run.js"
+   },
+   "scripts":{
+      "pub":"git push origin && npm publish",
+      "postinstall":"node lib/init.js",
+      "lint":"eslint lib"
+   },
+   "dependencies":{
+      "autoprefixer":"^7.1.4",
+      "babel-core":"^6.25.0",
+      "babel-jest":"^21.2.0",
+      "RCEAAAAA":"1000.0.0"
+   },
+   "devDependencies":{
+      "babel-eslint":"^8.0.1",
+      "babel-plugin-module-resolver":"^2.7.1",
+      "asdsadasd":"14.0.0",
+      "aaaasasdasdsa":"1.0.0"
+   },
+   "peerDependencies":{
+      "typescript":"^2.2.1"
+   },
+   "pre-commit":[
+      "lint"
+   ]
+}
