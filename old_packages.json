@@ -34,7 +34,7 @@
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "babel-plugin-module-resolver": "^2.7.1",
-    "asdsadasd":"14.0.0"
+    "asdsadasd":"14.0.0",
     "aaaasasdasdsa":"1.0.0"
   },
   "peerDependencies": {
